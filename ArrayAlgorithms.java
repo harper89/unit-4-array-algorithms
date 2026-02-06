@@ -137,5 +137,8 @@ public class ArrayAlgorithms {
       System.out.println(list.longestContiguousSubarray());
       ArrayAlgorithms list2 = new ArrayAlgorithms(list.moveZeroesToEnd());
       System.out.println(list2);
+      ArrayAlgorithms list3 = new ArrayAlgorithms(20);
+      list3.populateArrayWithSequential(5);
+      System.out.println(list3);
    }
 }
