@@ -17,7 +17,7 @@ public class ArrayListAlgorithms {
 
    public void populateArrayWithRandom() {
       // REQUIRED: populate intArray with random integers from 0 - 99
-      int length = (int) (Math.random() *100);
+      int length = (int) (1+Math.random() *99);
       for (int i = 0; i<length; i++) {
          intArray.add((int)(Math.random()*100));
       
@@ -27,7 +27,7 @@ public class ArrayListAlgorithms {
 
    public void populateArrayWithSequential(int startNum) {
       // REQUIRED: populate intArray with sequential integers starting at startNum
-      int length = (int) (Math.random() *100);
+      int length = (int) (1+Math.random() *99);
       for (int i = 0; i<length; i++) {
          intArray.add(i+startNum);
       
