@@ -91,7 +91,7 @@ public class ArrayAlgorithms {
    public String toString() {
       String list = "";
       for (int i = 0; i<intArray.length-1; i++) {
-      list+= intArray[i]+",";
+      list+= intArray[i]+", ";
       
       }
       list+= intArray[intArray.length-1];
